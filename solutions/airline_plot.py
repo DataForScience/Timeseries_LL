@@ -1,0 +1,5 @@
+airline = pd.read_csv('data/international-airline-passengers.csv', parse_dates=['Month'], sep=';')
+airline.set_index('Month', inplace=True)
+ax = airline.plot(legend=False)
+ax.set_xlabel('Date')
+ax.set_ylabel('Passengers')
