@@ -7,4 +7,4 @@ ax.fill_between(x=DJIA.index, y1=DJIA['max30'].values, y2=DJIA['min30'].values, 
 
 ax.set_ylabel('DJIA')
 ax.set_xlabel('Date')
-ax.legend(['daily', '30 day average', '30 day max', '30 day min'])
+ax.legend(['daily', '30 day average', '30 day max', '30 day min'], loc='lower left')
