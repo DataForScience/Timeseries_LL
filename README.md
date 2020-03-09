@@ -37,24 +37,6 @@
 - Fitting ARIMA models
 - Seasonal ARIMA models
 
-## GARCH models
-- Conditional Heteroscedasticy
-- ARCH Model
-- GARCH Model
-
-## Machine learning with time series
-- Interpolation
-- Time varying features
-- Classification and regression
-- Cross-validation
-- Caveats when working with time series
-
-## Deep learning approaches
-- Feed forward networks
-- Recurrent neural networks
-- Gated recurrent units
-- Long short-term memory
-
 
 ### Code and slides to accompany the online series of webinars: https://data4sci.com/timeseries by Data For Science.
 
